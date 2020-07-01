@@ -1,144 +1,119 @@
-    /*
-        .hNav li 
-      {
-            list-style: none;
-            float: left;
-        	text-align: center;  
-        	
-        }
-      */
+/*
+.hNav li {
+  list-style: none;
+  float: left;
+  text-align: center;  
+  }
+*/
       
-      .hNav
-      {
-		   margin: auto;
-       display: block;
-       box-sizing: border-box;
-      }
+.hNav {
+margin: auto;
+display: block;
+box-sizing: border-box;
+}
       
-      /*
-
-      .hNav2 li { 
-            list-style: none;
-     		padding-right: 10px;
-        	float: right;
-        }
-      
-      */
-        .hNav a {
-          text-decoration: none;
-          color: white;
-          font-family: Cooper Hewitt;
-        	padding: 0px 10px;
-        	float:left;
-        }
+/*
+.hNav2 li { 
+  list-style: none;
+  padding-right: 10px;
+  float: right;
+  }
+*/
+.hNav a {
+  text-decoration: none;
+  color: white;
+  font-family: Cooper Hewitt;
+  padding: 0px 10px;
+  float:left;
+  }
             
-      	.hNav2
-      	{
-      	box-sizing:border-box;
-      	}
+.hNav2 {
+  box-sizing:border-box;
+  }
         
-        .hNav2 a 
-        {
-            text-decoration: none;
-            color: white;
-            font-family: Cooper Hewitt;
-            display: block;
-        	 float:right;
-        	 padding:0px 10px;
-        }
+.hNav2 a {
+  text-decoration: none;
+  color: white;
+  font-family: Cooper Hewitt;
+  display: block;
+  float:right;
+  padding:0px 10px;
+}
 
+.hNav2 a:hover {
+  background-color: rgba(255, 0, 0, 1);
+  transition:0.4s ;
+  }
       
-      .hNav2 a:hover
-      {
-      background-color: rgba(255, 0, 0, 1);
-      transition:0.4s ;
-      }
-      
+.hText {
+  float: left;
+  color: white;
+  font-family: Cooper Hewitt;
+  font-size: 30px;
+  font-weight: bold;
+  }
 
-       .hText
-      {
-          float: left;
-          color: white;
-          font-family: Cooper Hewitt;
-        	font-size: 30px;
-        	font-weight: bold;
-        }
-
-        header 
-      	{
-        /* background-color: #373737; */
-        height: 700px;
-        background-image: url(https://images.pexels.com/photos/4551567/pexels-photo-4551567.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-  		  box-sizing: border-box;
-        background-size: cover;  
-        width:100%;
-        background-color: cyan;
-        
-      }
+header {
+  /* background-color: #373737; */
+  height: 700px;
+  background-image: url(https://images.pexels.com/photos/4551567/pexels-photo-4551567.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  box-sizing: border-box;
+  background-size: cover;  
+  width:100%;
+  background-color: cyan;  
+  }
       
-      .inHeader
-      {
-        height:200px;
-        background-color: rgba(0,0,0,0.8);
-        display: block;
-        line-height: 80px;
-        height:80px;
-        padding:5px 30px;
-        display: flex;
-      }
+.inHeader {
+  height:200px;
+  background-color: rgba(0,0,0,0.8);
+  display: block;
+  line-height: 80px;
+  height:80px;
+  padding:5px 30px;
+  display: flex;
+  }
       
-   
-   @media(max-width:1980px)
-     {
-   
-      .fa-bars
-  	 	{
+@media(max-width:1980px) {
+    .fa-bars {
        display:none;
-   		}
-   		}
+   	}
+  }
      
-      @media(max-width:670px)
-      {
-		.inHeader 
-        {
-          width:100%;
-          box-sizing: border-box; /*solves the overflow*/
-          height: 90px;
-        }
+@media(max-width:670px) {
+	  .inHeader {
+      width:100%;
+      box-sizing: border-box; /*solves the overflow*/
+      height: 90px;
+    }
+}
         
-		header
-        {
-          width:700px;
-          background-size: cover;
-        }
+header {
+  width:700px;
+  background-size: cover;
+  }
         
-        .hText
-      	{
-            float: left;
-            color: white;
-            font-family: Cooper Hewitt;
-        	font-size: 30px;
-        	font-weight: bold;
-        }
+.hText {
+  float: left;
+  color: white;
+  font-family: Cooper Hewitt;
+  font-size: 30px;
+  font-weight: bold;
+  }
         
-	.hNav 
-        {
-        display: none;
-        }
+.hNav {
+  display: none;
+  }
         
-     .hNav2
-        {
-        margin: auto;
-        box-sizing: border-box;
-        }
+.hNav2 {
+  margin: auto;
+  box-sizing: border-box;
+  }
      
-	.fa-bars
-   {
-     color:white;
-     float:right;
-     line-height: 80px;
-       display:block;
-   }     
-      }
+.fa-bars {
+  color:white;
+  float:right;
+  line-height: 80px;
+  display:block;
+  }
    
    
