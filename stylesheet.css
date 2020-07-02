@@ -127,7 +127,7 @@ header {
 
 .header-nav a {
     line-height: 75px;
-    padding: 0 25px;
+    padding: 0 20px;
     color: #ffffff;
     display: inline-block;
 }
@@ -142,11 +142,10 @@ header {
 }
 
 .menu-icon {
-    color: white;
-    /* float: right; */
-    padding: 28px 12px;
     display: none;
+    color: transparent;
 }
+
 
 /* CSS Konten Tentang / Deskripsi */
 

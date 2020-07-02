@@ -1,11 +1,15 @@
-@media all and (max-width: 1000px) {
+@media all and (max-width: 900px) {
     .header-nav {
         display: none;
     }
 
     .menu-icon {
-        float: right;
+        font-size: larger;
         display: block;
+        float: right;
+        color: white;
+        float: right;
+        padding: 28px 12px;
     }
     
     .main-content h1 {
@@ -48,8 +52,12 @@
     }
 
     .menu-icon {
+        font-size: larger;
         display: block;
         float: right;
+        color: white;
+        float: right;
+        padding: 28px 12px;
     }
 
     .main-content h1 {
