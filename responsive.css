@@ -1,0 +1,104 @@
+@media all and (max-width: 1000px) {
+    .header-nav {
+        display: none;
+    }
+
+    .menu-icon {
+        float: right;
+        display: block;
+    }
+    
+    .main-content h1 {
+        font-size: 55px;
+    }
+
+    .heading-content h2 {
+        font-size: 20;
+    }
+
+    .deskripsi-konten-umai p {
+        font-size: 18px;
+    }
+
+    .menu-content {
+        width: 100%;
+        margin: auto;
+        height: 720px;
+    }
+
+    .pesan-menu {
+        width: 35%;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .subscribe {
+        align-items: center;
+    }
+
+    /* .footer-icons {
+        width: 50%;
+        display: inline-block;
+    } */
+}
+
+@media all and (max-width: 720px) {
+    .header-nav {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+        float: right;
+    }
+
+    .main-content h1 {
+        font-size: 32px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .main-content p {
+        font-size: 14px;
+        line-height: 12px;
+        text-align: center;
+    }
+
+    .menu-content {
+        width: 100%;
+        margin: auto;
+        height: 1400px;
+    }
+
+    .menu-kami {
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .konten-menu {
+        width: 90%;
+        align-items: center;
+    }
+
+    .pesan-menu {
+        width: auto;
+    }
+
+    .subscribe h2 {
+        font-size: 24px;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center {
+        width: 100%;
+        display: none;
+    }
+}

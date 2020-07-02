@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https:////maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
@@ -11,8 +12,10 @@
 </head>
 <body>
     <header>
-        <div class="header">
-            <div class="logo-icon">UMAI</div>
+        <div class="container">
+            <div class="header">
+                <div class="logo-icon">UMAI</div>
+                <span class="fa fa-bars menu-icon fa-lg"></span>
                 <div class="header-nav">
                     <a href="#">HOME</a>
                     <a href="#">MENU</a>
@@ -20,10 +23,7 @@
                     <a href="#">KONTAK</a>
                     <a href="#" class="member">Member</a>
                 </div>
-        </div>
-
-        <div class="iconNav">
-            <span class="fa fa-bars menu-icon fa-lg"></span>
+            </div>
         </div>
     </header>
 
@@ -33,10 +33,10 @@
             <h1>HARGA KAKI LIMA.</h1>
             <p>Berdiri sejak 1925 dengan resep keluarga.</p>
             <div class="btn-main">
-                <a href="#" class="btn signup">Daftar Member</a>
-                <p>atau</p>
-                <a href="#" class="btn menu-kami"><span class="fa fa-cutlery"></span> Cek Menu Kami</a>
-                <a href="#" class="btn langganan"><span class="fa fa-newspaper-o"></span>Berlangganan Berita</a>
+                <a href="#" class="btn signup">Daftar Pelanggan</a>
+                <p>atau bisa terlebih dahulu</p>
+                <a href="#menu-content" class="btn menu-kami"><span class="fa fa-cutlery"></span>Cek Menu Kami</a>
+                <a href="#subscribe" class="btn langganan"><span class="fa fa-newspaper-o"></span>Berlangganan Berita</a>
             </div>
         </div>
     </div>
@@ -47,13 +47,14 @@
                 <h2>Tentang <span class="umai-main">UMAI</span></h2>
             </div>
             <div class="deskripsi-konten-umai">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, perferendis? Ratione, illum? Et nostrum, non consequuntur aliquam, voluptas voluptates sequi, autem dicta quos tenetur sit minus! Placeat repellendus voluptatum odit.</p>
+                <p>Umai didirikan tahun 1925 oleh Group G32, menyediakan hidangan khas Indonesia dan Jepang dengan harga terjangkau. <br>Menu spesial kami adalah Ramen, Yakitori, dan Sushi.
+                Kami juga menyediakan minuman khas seperti Cendol, Bandrek, dan Sake. </p>
                 <a href="#" class="tentang">Profil Kami</a>
             </div>
         </div>
     </div>
 
-    <div class="menu-content">
+    <div class="menu-content" id="menu-content">
         <div class="container">
             <div class="heading-menu">
                 <h3 class="text-menu">Menu <span class="umai-main">UMAI</span></h3>
@@ -64,7 +65,8 @@
                     <img src="ramen.jpg" class="gambar-menu" alt="">
                     <div class="deskripsi-menu">
                         <h4><b>Ramen</b></h4>
-                        <p>deskripsi</p>
+                        <p class="teks-deskripsi">Ramen merupakan olahan makanan khas Jepang dari bahan dasar mie yang berkuah disajikan dengan daging, <em>chasiu</em>, <em>menma</em>, dan irisan daun bawang .</p>
+                        <p class="harga-menu">Rp. 10,000</p>
                         <span class="btn pesan-menu">Pesan</span>
                     </div>
                 </div>
@@ -73,7 +75,8 @@
                     <img src="yakitori.jpg" class="gambar-menu" alt="">
                     <div class="deskripsi-menu">
                         <h4><b>Yakitori</b></h4>
-                        <p>deskripsi</p>
+                        <p class="teks-deskripsi">Yakitori adalah salah satu masakan Jepang yang terbuat dari daging ayam dan bahan-bahan lainnya yang dipotong kecil-kecil, ditusuk seperti sate, kemudian dibakar.</p>
+                        <p class="harga-menu">Rp. 15,000</p>
                         <span class="btn pesan-menu">Pesan</span>
                     </div>
                 </div>
@@ -82,7 +85,8 @@
                     <img src="sushi.jpg" class="gambar-menu" alt="">
                     <div class="deskripsi-menu">
                         <h4><b>Sushi</b></h4>
-                        <p>deskripsi</p>
+                        <p class="teks-deskripsi">Sushi adalah makanan Jepang yang terdiri dari nasi yang dibentuk bersama lauk  berupa makanan laut, daging, sayuran mentah atau yang sudah dimasak.</p>
+                        <p class="harga-menu">Rp. 17,500</p>
                         <span class="btn pesan-menu">Pesan</span>
                     </div>
                 </div>
@@ -90,18 +94,18 @@
         </div>
     </div>
 
-    <div class="subscribe">
-			<div class = "subscontainer">
-			   <h2>Langganan Berita Kami</h2><hr>
-			   <p><input type = "text" placeholder="youremail@gmail.com">&nbsp;<a href = "#" class = "subs">SEND</a></p>
+    <div class="subscribe" id="subscribe">
+		<div class = "subscontainer">
+			<h2>Langganan Berita Kami</h2><hr>
+			<p><input type = "text" placeholder="emailanda@gmail.com">&nbsp;<a href = "#" class = "subs">SEND</a></p>
         </div>
     </div>
 
     <footer class="footer-distributed">
+    <div class="container">
         <div class="footer-left">
           <h3>UMAI</h3>
           <p class="deskripsi-footer-umai">UMAI adalah sebuah resto fiktif yang didirikan dengan tujuan untuk project Tim G32 CEB.</p>
-          <p class="footer-umai">UMAI &copy; 2020</p>
         </div>
    
         <div class="footer-center">
@@ -134,6 +138,8 @@
                 <a href="#"><i class="fa fa-youtube"></i></a>
             </div>
         </div>
+    </div>
+    <p class="footer-umai">UMAI &copy; 2020</p>
     </footer>
 </body>
 </html>

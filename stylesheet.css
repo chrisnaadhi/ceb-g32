@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
@@ -22,6 +26,8 @@ a {
     text-decoration: none;
 }
 
+/* CSS Konten Banner */
+
 .main-content {
     padding: 180px 0 100px 0;
     background-image: url(umai.jpg);
@@ -31,7 +37,9 @@ a {
 }
 
 .container {
-    width: 1170px;
+    /* width: 1170px; */
+    width: 100%;
+    padding: 0 auto;
     margin: 0 auto;
 }
 
@@ -57,11 +65,11 @@ a {
 }
 
 .btn-main {
-    margin: 20px 0;
+    margin: 0 20px;
 }
 
 .btn-main p {
-    margin: 10px 0;
+    margin: 0 10px;
 }
 
 .signup {
@@ -92,6 +100,8 @@ a {
 .fa {
     margin-right: 5px;
 }
+
+/* CSS Konten Header */
 
 header {
     height: 75px;
@@ -131,6 +141,16 @@ header {
     background-color: rgba(255, 255 , 255, 0.5);
 }
 
+.menu-icon {
+    color: white;
+    /* float: right; */
+    font-size: px;
+    padding: 24px 12px;
+    display: none;
+}
+
+/* CSS Konten Tentang / Deskripsi */
+
 .sub-content {
     background-color: #27ae60;
     text-align: center;
@@ -158,7 +178,7 @@ header {
     color: white;
     font-size: 20px;
     padding: 15px 10px;
-    margin: 10px 10px;
+    margin: 15px 25px;
 }
 
 .deskripsi-konten-umai .tentang {
@@ -175,15 +195,17 @@ header {
     border: white solid 1px;
 }
 
+/* CSS Konten Menu */
+
 .menu-content {
-    height: 550px;
+    height: 720px;
     padding-bottom: 60px;
-    background-color: #f7f7f7;
+    background-color: white;
     text-align: center;
 }
 
 .heading-menu {
-    padding-top: 60px;
+    padding-top: 30px;
     padding-bottom: 30px;
     color: #5f5d60;
 }
@@ -198,7 +220,7 @@ header {
 }
 
 .konten-menu {
-    float: left;
+    display: inline-block;
     width: 30%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -216,6 +238,11 @@ header {
     text-align: center;
 }
 
+.teks-deskripsi {
+    padding: 12px 20px;
+    text-align: center;
+}
+
 .gambar-menu {
     border-radius: 5px 5px 0 0;
     width: 100%;
@@ -226,10 +253,11 @@ header {
 .pesan-menu {
     color: white;
     background-color: #27ae60;
-    padding: 6px 12px 6px 12px;
-    margin: 12px 24px 12px 24px;
+    padding: 6px 12px;
+    margin: 12px 24px;
     box-shadow: 0 7px #0e833e;
     cursor: pointer;
+    font-size: 20;
 }
 
 .pesan-menu:active {
@@ -238,7 +266,77 @@ header {
     box-shadow: none;
 }
 
+.harga-menu {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    text-align: center;
+}
 
+/* CSS Konten Langganan Berita */
+
+.subscontainer h2 {
+    padding-bottom:20px;
+    font-size:35px;
+    color:#F5F5F5;
+    padding-top:50px;
+}
+
+.subscontainer p {
+    padding-bottom:10px;
+    font-size:23px;
+    margin:auto;
+    color:#f5f5f5;
+}
+.subscribe {
+    background-image: url(https://images.pexels.com/photos/3815759/pexels-photo-3815759.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-size: cover;
+}
+
+.subscontainer {
+    text-align:center;
+    padding:60px;
+    height:350px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subscontainer:hover {
+    background-color:rgba(0, 0, 0, 0.6);
+    transition:0.6s;
+    width: auto;
+    margin:auto;
+    transform: scale(1);
+}
+
+hr {
+    width:100px;
+    border:2px solid #fff;
+    background-color: #fff;
+    margin-bottom:70px;
+}
+
+input[type="text"] {
+    border:0px;
+    height:35px;
+    border-radius:2px;
+    background-color:rgba(243, 241, 239, 0.5);
+    text-align:center;
+}
+
+.subscontainer a {
+    background-color:rgba(243, 241, 239, 0.9); 
+    color:#373737;
+    font-size:15px;
+    padding:9px;
+    border-radius:3px;
+    font-weight:bold;
+}
+
+::placeholder {
+	color:white;
+	opacity:0.8;
+}
+
+/* CSS Konten Footer */
 
 footer {
     background-color: cyan;
@@ -253,7 +351,7 @@ footer {
     text-align: left;
     font: bold 16px sans-serif;
     padding: 25px 25px;
-    margin-top: 80px;
+    margin: auto;
 }
 
 .footer-distributed .footer-left,
@@ -282,8 +380,9 @@ footer {
 }
 
 .footer-distributed .footer-umai {
-    padding-top: 35px;
-    color:  #8f9296;
+    text-align: center;
+    padding: auto;
+    color: #8f9296;
     font-size: 14px;
     font-weight: normal;
     margin: 0;
@@ -305,7 +404,6 @@ footer {
     margin: 10px 15px;
     vertical-align: middle;
 }
-
 
 .footer-distributed .footer-center i.fa-envelope {
     font-size: 17px;
@@ -405,74 +503,3 @@ footer {
     transition: all 0.5s;
 }
 
-.subscontainer h2
-{
-padding-bottom:20px;
-font-size:35px;
-color:#F5F5F5;
-padding-top:70px;
-}
-
-.subscontainer p
-{
-padding-bottom:10px;
-font-size:23px;
-margin:auto;
-color:#f5f5f5;
-}
-.subscribe
-{
-background-image:url(https://images.pexels.com/photos/3815759/pexels-photo-3815759.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
-background-size:cover;
-}
-
-.subscontainer
-{
-text-align:center;
-padding:60px;
-height:350px;
-font-family: 'Roboto', sans-serif;
-}
-
-.subscontainer:hover
-{
-background-color:rgba(255, 255, 255, 0.2);
-transition:0.6s;
-width:50%;
-margin:auto;
-transform: scale(1.05);
-}
-
-hr
-{
-width:100px;
-border:2px solid #fff;
-background-color: #fff;
-margin-bottom:70px;
-
-}
-
-input[type="text"]
-{
-border:0px;
-height:35px;
-border-radius:2px;
-background-color:rgba(243, 241, 239, 0.5);
-text-align:center;
-}
-
-.subscontainer a 
-{
-background-color:rgba(243, 241, 239, 0.9); 
-color:#373737;
-font-size:15px;
-padding:9px;
-border-radius:3px;
-font-weight:bold;
-}
-
-::placeholder
-{
-	color:white;
-	opacity:0.8;
-}
