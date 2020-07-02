@@ -24,7 +24,7 @@ a {
 
 .main-content {
     padding: 180px 0 100px 0;
-    background-image: url(/umai.jpg);
+    background-image: url(umai.jpg);
     background-size: cover;
     color: rgb(255, 255, 255);
     text-align: center;
