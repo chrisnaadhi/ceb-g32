@@ -39,11 +39,6 @@
     .subscribe {
         align-items: center;
     }
-
-    /* .footer-icons {
-        width: 50%;
-        display: inline-block;
-    } */
 }
 
 @media all and (max-width: 720px) {
