@@ -1,10 +1,9 @@
-/*
-  .hNav li {
-  list-style: none;
-  float: left;
-  text-align: center;  
-  }
-*/
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
       
 .hNav {
 	margin: auto;
@@ -56,11 +55,11 @@
 header {
   /* background-color: #373737; */
   height: 700px;
-  background-image: url(https://images.pexels.com/photos/4551567/pexels-photo-4551567.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  /* background-image: url(https://images.pexels.com/photos/4551567/pexels-photo-4551567.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260); */
   box-sizing: border-box;
   background-size: cover;  
   width:100%;
-  background-color: cyan;
+  /* background-color: cyan; */
   }
       
 .inHeader {
@@ -256,6 +255,7 @@ font-size: auto;
      width:100%;
      box-sizing: border-box; /*solves the overflow*/
      height: 90px;
+     position: fixed;
    }
    
 header
