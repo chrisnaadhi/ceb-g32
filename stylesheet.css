@@ -30,7 +30,7 @@ a {
 
 .main-content {
     padding: 180px 0 100px 0;
-    background-image: url(umai.jpg);
+    background-image: url(img/umai.jpg);
     background-size: cover;
     color: rgb(255, 255, 255);
     text-align: center;
@@ -285,7 +285,7 @@ header {
     color:#f5f5f5;
 }
 .subscribe {
-    background-image: url(berita.jpg);
+    background-image: url(img/berita.jpg);
     background-size: cover;
 }
 
