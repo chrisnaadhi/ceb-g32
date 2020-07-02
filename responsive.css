@@ -91,6 +91,10 @@
         align-items: center;
     }
 
+    .sub-text-menu {
+        font-size: 18px;
+    }
+
     .pesan-menu {
         width: auto;
     }
