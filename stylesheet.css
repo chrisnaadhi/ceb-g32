@@ -317,6 +317,7 @@ input {
 .subscribe {
     background-image: url(img/berita.jpg);
     background-size: cover;
+    margin-top: 15px;
 }
 
 .subscontainer {
