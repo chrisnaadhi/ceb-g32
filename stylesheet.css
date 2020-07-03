@@ -91,6 +91,7 @@ a {
     display: inline-block;
     opacity: 0.8;
     border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .btn:hover {

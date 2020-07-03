@@ -28,11 +28,11 @@
     .menu-content {
         width: 100%;
         margin: auto;
-        height: 720px;
+        height: fit-content;
     }
 
     .pesan-menu {
-        width: 35%;
+        width: 50%;
         font-size: 17px;
         text-align: center;
     }
