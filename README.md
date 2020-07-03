@@ -3,7 +3,7 @@ Proyek Tim G32 dari Program CEB
 
 Restoran Fiktif : Umai - Umami Restaurant
 
-Built & Developed by Tim G32 :
+Dibangun oleh Tim G32 :
 - Chrisna Adhi Pranoto
 - Trinity Evelim
 - Muhamad Rizqi Habibbullah
