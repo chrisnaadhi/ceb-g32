@@ -153,7 +153,10 @@ header {
     background-color: #27ae60;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    padding: 35px 20px;
+    padding-left: 20px;
+	padding-right:20px;
+	padding-bottom:60px;
+	padding-top:15px;
 }
 
 .heading-content {
@@ -162,8 +165,16 @@ header {
 }
 
 .teks-heading {
-    border-bottom: white solid 2px ;
+
     padding: 15px 30px;
+}
+
+.heading-content hr
+{
+     width:100px;
+    border:2px solid #fff;
+    background-color: #fff;
+    margin-bottom:20px;
 }
 
 .heading-content span {
@@ -172,9 +183,10 @@ header {
 
 .deskripsi-konten-umai p {
     color: white;
-    font-size: 20px;
-    padding: 15px 10px;
+    font-size: 19px;
+    padding: 15px 100px;
     margin: 15px 25px;
+	text-align:justify;
 }
 
 .deskripsi-konten-umai .tentang {
@@ -195,24 +207,32 @@ header {
 
 .menu-content {
     height: 720px;
-    padding-bottom: 60px;
     background-color: white;
     text-align: center;
 }
 
 .heading-menu {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     color: #5f5d60;
 }
 
+.heading-menu hr
+{
+     width:100px;
+    border:2px solid #5f5d60;
+    background-color: #5f5d60;
+    margin-bottom:33px;
+	margin-top:33px;
+}
+
 .text-menu {
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'Roboto', sans-serif;
 }
 
 .sub-text-menu {
-    font-size: 25px;
+    font-size: 22px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -222,15 +242,21 @@ header {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 5px;
-    margin: 10px 10px;
+    margin:10px 10px;
 }
 
 .konten-menu:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.konten-menu h4
+{
+	padding-top:20px;
+	padding-bottom:5px;
+}
+
 .deskripsi-menu {
-    padding: 2px 16x;
+    padding: 2px 30px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
@@ -238,6 +264,7 @@ header {
 .teks-deskripsi {
     padding: 12px 20px;
     text-align: center;
+	text-align:justify;
 }
 
 .gambar-menu {
@@ -273,9 +300,9 @@ header {
 
 .subscontainer h2 {
     padding-bottom:20px;
-    font-size:35px;
+    font-size:40px;
     color:#F5F5F5;
-    padding-top:50px;
+    padding-top:40px;
 }
 
 .subscontainer p {
@@ -291,7 +318,7 @@ header {
 
 .subscontainer {
     text-align:center;
-    padding:60px;
+    padding:25px;
     height:350px;
     font-family: 'Roboto', sans-serif;
 }
