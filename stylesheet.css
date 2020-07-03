@@ -185,7 +185,7 @@ header {
     font-size: 20px;
     padding: 15px 100px;
     margin: 15px 25px;
-	text-align: center;
+	text-align:center;
 }
 
 .deskripsi-konten-umai .tentang {
@@ -261,7 +261,7 @@ header {
 .teks-deskripsi {
     padding: 12px 20px;
     text-align: center;
-	text-align:justify;
+	text-align:center;
 }
 
 .gambar-menu {
