@@ -22,6 +22,7 @@
 
     .deskripsi-konten-umai p {
         font-size: 18px;
+        padding: 15px 30px;
     }
 
     .menu-content {
@@ -70,7 +71,7 @@
     .menu-content {
         width: 100%;
         margin: auto;
-        height: 1420px;
+        height: fit-content;
     }
 
     .menu-kami {

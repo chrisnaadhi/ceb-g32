@@ -165,16 +165,15 @@ header {
 }
 
 .teks-heading {
-
     padding: 15px 30px;
 }
 
 .heading-content hr
 {
-     width:100px;
-    border:2px solid #fff;
-    background-color: #fff;
-    margin-bottom:20px;
+    width: 100px;
+    border: 2px solid #fff;
+    background-color : #fff;
+    margin-bottom :20px;
 }
 
 .heading-content span {
@@ -183,10 +182,10 @@ header {
 
 .deskripsi-konten-umai p {
     color: white;
-    font-size: 19px;
+    font-size: 20px;
     padding: 15px 100px;
     margin: 15px 25px;
-	text-align:justify;
+	text-align: center;
 }
 
 .deskripsi-konten-umai .tentang {
@@ -217,9 +216,8 @@ header {
     color: #5f5d60;
 }
 
-.heading-menu hr
-{
-     width:100px;
+.heading-menu hr {
+    width:100px;
     border:2px solid #5f5d60;
     background-color: #5f5d60;
     margin-bottom:33px;
@@ -249,8 +247,7 @@ header {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.konten-menu h4
-{
+.konten-menu h4 {
 	padding-top:20px;
 	padding-bottom:5px;
 }
